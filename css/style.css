@@ -1,0 +1,141 @@
+html {
+    text-rendering: optimizeLegibility;
+}
+.header-section {
+    background-color: #00c3c3;
+    padding: 4% 10%;
+}
+
+.cou-logo {
+    width: 150px;
+    height: auto;
+}
+.nav-feature {
+   text-align: center;
+    margin-top: 10px;
+}
+.nav-feature li a {
+    color: #fff !important;
+}
+.nav-feature li {
+    border-radius: 10px;
+    padding: 0 10px;
+    transition: 0.3s;
+}
+.nav-feature li:hover {
+    background-color: #449579;
+}
+h1 {
+    text-align: center;
+    font-family: arvo;
+    font-size: 60px;
+    color: #fff;
+    margin-left: 140px;
+    padding: 8px;
+}
+.photo-section {
+    background-color: #b2bebe;
+    padding: 4% 10%;
+}
+.carousel-item {
+    padding: 5% 15%;
+    text-align: center;
+    
+}
+
+.carousel-item img{
+    width: 90%;
+    border-radius: 5%;
+}
+
+.notice-section {
+    background-color: #dbdbdb;
+    padding: 4% 10%;
+}
+.headline-notice {
+    font-size: 25px;
+    font-weight: bold;
+}
+.m-quiz {
+    color: #ff0000;
+    line-height: 1.5;
+    text-decoration: none;
+}
+.m-quiz:hover {
+    color: #e50303;
+}
+.full-text {
+    line-height: 1.5;
+    font-style: italic;
+}
+.head-notice {
+    background-color: #d6e7f5;
+    padding: 5%;
+}
+.vc-name {
+    font-size: 20px;
+    color: #00a7ff;
+}
+
+.vc-message-all {
+    font-weight: bold;
+    margin-bottom: 10px;
+    
+}
+.vc-text-other {
+    padding: 5% 10%;
+}
+.footer {
+    background-color: #00c3c3;
+    padding: 4% 10%;
+}
+.nav-footer-icon {
+    list-style-type: none;
+    text-align: right;
+}
+.nav-footer-icon li {
+    display: inline-block;
+    margin-right: 10px;
+}
+.icon {
+    color: #0031ff;
+    font-size: 18px;
+    border-radius: 6px;
+    transition: 0.3s;
+}
+.icon:hover {
+    color: #002121;
+    transform: scale(1.01);
+}
+@media screen and (max-width: 1200px) {
+    h1{ 
+        font-size: 40px;
+        margin-left: 60px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    h1 {
+        margin-left: 50px;
+    }
+    .carousel-item img {
+        margin-bottom: 40px;
+    }
+    .nav-footer-icon {
+        text-align: center;
+        
+        }
+}
+@media screen and (max-width: 768px) {
+    h1 {
+        margin-bottom: 50px;
+    }
+    .nav-footer-icon {
+        text-align: center;
+    }
+}
+@media screen and (max-width: 576px) {
+    h1 {
+        font-size: 25px;
+    }
+}
